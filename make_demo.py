@@ -5,10 +5,8 @@ import os
 import re
 from pathlib import Path
 
-os.environ["SERP_OFFLINE"] = "1"
-
-import finder  # noqa: E402  (must come after SERP_OFFLINE is set)
-from serp import NotSaved  # noqa: E402
+import finder
+from serp import NotSaved
 
 DEMO = Path(__file__).parent / "demo"
 SEARCHES = [
@@ -27,6 +25,9 @@ def file_name(topic, country):
 
 
 if __name__ == "__main__":
+    # Offline ONLY when this file is run directly. (Setting it at import time once switched off
+    # live search in the web page, because app.py imports file_name from here.)
+    os.environ["SERP_OFFLINE"] = "1"
     DEMO.mkdir(exist_ok=True)
     for topic, country in SEARCHES:
         try:
