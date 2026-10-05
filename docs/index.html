@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhD Guide Finder — demo video</title>
+  <meta name="description" content="Demo of PhD Guide Finder: find professors actively researching your PhD topic, with proof they are taking students. Built with SerpApi.">
+  <style>
+    :root { --bg: #0b1220; --text: #e6edf6; --muted: #9fb3c8; --link: #7cc4ff; --card: #111a2c; }
+    @media (prefers-color-scheme: light) {
+      :root { --bg: #f6f8fb; --text: #0b1220; --muted: #4a5a6e; --link: #0b62c4; --card: #ffffff; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text);
+           font: 17px/1.6 "Segoe UI", system-ui, -apple-system, Arial, sans-serif; }
+    main { max-width: 980px; margin: 0 auto; padding: 32px 16px 48px; }
+    h1 { font-size: 34px; margin: 0 0 6px; }
+    p { margin: 8px 0; }
+    .muted { color: var(--muted); font-size: 15px; }
+    video { width: 100%; height: auto; margin: 22px 0 10px; border-radius: 12px; background: #000;
+            box-shadow: 0 8px 30px rgba(0,0,0,.35); }
+    a { color: var(--link); }
+    .card { background: var(--card); border-radius: 12px; padding: 16px 18px; margin-top: 18px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>🎓 PhD Guide Finder</h1>
+    <p>Find professors who are <strong>actively researching your topic</strong> — in India or anywhere — and see,
+       <strong>with proof from their own homepage</strong>, whether they're taking PhD students.</p>
+    <p class="muted">SerpApi India Hackathon 2026 · Knowledge &amp; Public Interest track</p>
+
+    <video controls preload="metadata" poster="screenshot.jpg">
+      <source src="demo.mp4" type="video/mp4">
+      Your browser can't play this video. <a href="demo.mp4">Download the demo (MP4)</a>.
+    </video>
+    <p class="muted">Screen recording of the app running locally (<code>streamlit run app.py</code>).
+       The waiting time of the live search is sped up.</p>
+
+    <div class="card">
+      <p><strong>Code, setup and how it works:</strong>
+         <a href="https://github.com/Dharanieesh7/phd-guide-finder">github.com/Dharanieesh7/phd-guide-finder</a></p>
+      <p class="muted">Live data from SerpApi: Google Scholar API and Google Scholar Author API.</p>
+    </div>
+  </main>
+</body>
+</html>

@@ -4,6 +4,8 @@
 
 Built for the **SerpApi India Hackathon 2026** · Track: **Knowledge & Public Interest**
 
+▶️ **[Watch the 2-minute demo video](https://dharanieesh7.github.io/phd-guide-finder/)** — the app running locally, including a live search for *computer vision* in India.
+
 ![PhD Guide Finder showing NLP professors in India](docs/screenshot.jpg)
 
 ---

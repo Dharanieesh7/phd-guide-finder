@@ -1,0 +1,7 @@
+[server]
+# Streamlit's file watcher tries to inspect every module of the AI model library after a live
+# search, which slows the page down and fills the log with harmless errors. Not needed to run the app.
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false

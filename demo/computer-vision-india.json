@@ -1,0 +1,302 @@
+{
+  "topic": "computer vision",
+  "country": "India",
+  "searched_on": "2026-10-05",
+  "here": [
+    {
+      "name": "Partha Pratim Roy",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Professor of Computer Science & Engineering, Indian Institute of Technology, (ISM), Dhanbad",
+      "domain": "iitism.ac.in",
+      "country": "India",
+      "subjects": [
+        "Pattern Recognition",
+        "Computer Vision",
+        "Document Image Processing",
+        "EEG"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Balasubramanian Raman, Subrahmanyam Murala",
+      "h_index": 56,
+      "papers": [
+        {
+          "title": "What Does the Brain See? Multiview Neural Representations to Demystify the Brain-Visual Alignment",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=moDpyKkAAAAJ&sortby=pubdate&citation_for_view=moDpyKkAAAAJ:oYVvnHz_XzQC"
+        }
+      ],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://www.iitism.ac.in/faculty-details?faculty=parthapratim",
+      "scholar_link": "https://scholar.google.com/citations?user=moDpyKkAAAAJ"
+    },
+    {
+      "name": "Praful Hambarde",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Assistant Professor, IIT Mandi",
+      "domain": "iitmandi.ac.in",
+      "country": "India",
+      "subjects": [
+        "Computer Vision",
+        "Multimodal Learning",
+        "Quantum Machine Learning",
+        "Robotics",
+        "Medical Image Analysis"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Subrahmanyam Murala",
+      "h_index": 21,
+      "papers": [],
+      "hiring": "Says so",
+      "proof": "Positions available for Ph.D., M.Tech.",
+      "offers": [
+        "PhD",
+        "Master's"
+      ],
+      "homepage": "https://faculty.iitmandi.ac.in/~praful/",
+      "scholar_link": "https://scholar.google.com/citations?user=fHMMcBYAAAAJ"
+    },
+    {
+      "name": "Balasubramanian Raman",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Professor (HAG) & Head of Computer Science and Engineering, IIT Roorkee",
+      "domain": "iitr.ac.in",
+      "country": "India",
+      "subjects": [
+        "Computer Vision",
+        "Image Processing",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 53,
+      "papers": [],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://faculty.iitr.ac.in/cs/bala/",
+      "scholar_link": "https://scholar.google.com/citations?user=QU2O6JMAAAAJ"
+    },
+    {
+      "name": "Prof. Satish Kumar Singh",
+      "role": "Professor or group leader",
+      "role_note": "(\"assistant professor\" on their homepage)",
+      "job": "Indian Institute of Information Technology Allahabad",
+      "domain": "iiita.ac.in",
+      "country": "India",
+      "subjects": [
+        "Computer Vision || Deep Learning || Biomedical Image Processing & Biomertics"
+      ],
+      "topic_reason": "their subjects and recent papers",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 31,
+      "papers": [
+        {
+          "title": "HAViT: Historical Attention Vision Transformer",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RtmwqYEAAAAJ&sortby=pubdate&citation_for_view=RtmwqYEAAAAJ:mNrWkgRL2YcC"
+        }
+      ],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://cvbl.iiita.ac.in/sks/",
+      "scholar_link": "https://scholar.google.com/citations?user=RtmwqYEAAAAJ"
+    },
+    {
+      "name": "Prof. R P Maheshwari",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Professor of Electrical Engineering, IIT Roorkee",
+      "domain": "iitr.ac.in",
+      "country": "India",
+      "subjects": [
+        "Power System Protection",
+        "Digital Signal Processing",
+        "Image Processing"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Balasubramanian Raman, Subrahmanyam Murala",
+      "h_index": 34,
+      "papers": [],
+      "hiring": "No homepage listed",
+      "proof": "",
+      "offers": [],
+      "homepage": null,
+      "scholar_link": "https://scholar.google.com/citations?user=ZaBya3QAAAAJ"
+    },
+    {
+      "name": "Javed Imran",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Assistant Professor at Thapar Institute of Engineering & Technology",
+      "domain": "thapar.edu",
+      "country": "India",
+      "subjects": [
+        "Machine Computer Vision"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Balasubramanian Raman",
+      "h_index": 11,
+      "papers": [],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://javediitr.github.io/",
+      "scholar_link": "https://scholar.google.com/citations?user=osu7-JoAAAAJ"
+    },
+    {
+      "name": "Anushka Joshi",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Assistant Professor, IIT Jodhpur",
+      "domain": "cs.iitr.ac.in",
+      "country": "India",
+      "subjects": [
+        "Deep Learning",
+        "Earthquake",
+        "Machine Learning",
+        "Computer Vision"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Balasubramanian Raman",
+      "h_index": 8,
+      "papers": [],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "http://anushka-joshi.github.io/",
+      "scholar_link": "https://scholar.google.com/citations?user=zQadEr8AAAAJ"
+    }
+  ],
+  "elsewhere": [
+    {
+      "name": "Subrahmanyam Murala",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Associate Professor, CVPR Lab, SCSS, Trinity College Dublin, Ireland",
+      "domain": "tcd.ie",
+      "country": "Ireland",
+      "subjects": [
+        "Computer Vision",
+        "Deep Learning",
+        "Object Detection"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 46,
+      "papers": [
+        {
+          "title": "Editorial to special issue on selected extended works from 9th international conference on computer vision & image processing (CVIP) 2024",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5lGnNQoAAAAJ&sortby=pubdate&citation_for_view=5lGnNQoAAAAJ:uUvzmPk0f8oC"
+        }
+      ],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://www.scss.tcd.ie/~muralas/",
+      "scholar_link": "https://scholar.google.com/citations?user=5lGnNQoAAAAJ"
+    }
+  ],
+  "stats": {
+    "opened": 12,
+    "off_topic": 4,
+    "industry": 0,
+    "scholar_authors": 44,
+    "new_searches": 13
+  },
+  "trail": [
+    {
+      "name": "Balasubramanian Raman",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "iitr.ac.in"
+    },
+    {
+      "name": "Subrahmanyam Murala",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": false,
+      "domain": "tcd.ie"
+    },
+    {
+      "name": "Prof. Satish Kumar Singh",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "iiita.ac.in"
+    },
+    {
+      "name": "Partha Pratim Roy",
+      "found_via": "works with Balasubramanian Raman, Subrahmanyam Murala",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "iitism.ac.in"
+    },
+    {
+      "name": "Prof. R P Maheshwari",
+      "found_via": "works with Balasubramanian Raman, Subrahmanyam Murala",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "iitr.ac.in"
+    },
+    {
+      "name": "Anushka Joshi",
+      "found_via": "works with Balasubramanian Raman",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "cs.iitr.ac.in"
+    },
+    {
+      "name": "Krishna Pratap Singh",
+      "found_via": "works with Prof. Satish Kumar Singh",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "iiita.ac.in"
+    },
+    {
+      "name": "Javed Imran",
+      "found_via": "works with Balasubramanian Raman",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "thapar.edu"
+    },
+    {
+      "name": "Debashis Das Chakladar",
+      "found_via": "works with Partha Pratim Roy",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "hyderabad.bitspilani.ac.in"
+    },
+    {
+      "name": "Rajat Kumar Singh",
+      "found_via": "works with Prof. Satish Kumar Singh",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "iiita.ac.in"
+    },
+    {
+      "name": "Praful Hambarde",
+      "found_via": "works with Subrahmanyam Murala",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "iitmandi.ac.in"
+    },
+    {
+      "name": "Santosh Kumar Vipparthi",
+      "found_via": "works with Praful Hambarde, Subrahmanyam Murala",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "iitrpr.ac.in"
+    }
+  ],
+  "depth": "thorough"
+}
