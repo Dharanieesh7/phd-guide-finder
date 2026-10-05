@@ -1,0 +1,43 @@
+/* PhD Guide Finder — design tokens ("reading-room index").
+ * Every colour, font, size and space in app.css comes from here. Change a value here, not there.
+ * Contrast on paper: ink 16.5:1 · muted 6.4:1 · accent 6.3:1 · error 6.0:1 (all above 4.5:1).
+ */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Newsreader:opsz,wght@6..72,400;6..72,700&display=swap");
+
+:root {
+  /* colour — warm ivory paper, dark ink, ONE accent (green = "taking students") */
+  --color-paper:    oklch(97.5% 0.012 85);
+  --color-paper-2:  oklch(94.5% 0.014 85);
+  --color-rule:     oklch(85%   0.012 80);
+  --color-muted:    oklch(47%   0.012 70);
+  --color-ink:      oklch(21%   0.014 65);
+  --color-accent:   oklch(46%   0.11  155);
+  --color-error:    oklch(50%   0.15  28);
+  --color-focus:    oklch(21%   0.014 65);   /* ink — green is reserved for "taking students" */
+
+  /* type — Newsreader (journal serif) for names and headings, IBM Plex Sans for everything else */
+  --font-display: "Newsreader", Georgia, serif;
+  --font-body:    "IBM Plex Sans", system-ui, sans-serif;
+
+  /* scale — major third (1.25) from 16px */
+  --text-xs:   0.8rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-md:   1.25rem;
+  --text-lg:   1.5625rem;
+  --text-xl:   1.9531rem;
+
+  /* space — 4-point scale */
+  --space-3xs: 0.25rem;  --space-2xs: 0.5rem;  --space-xs: 0.75rem;
+  --space-sm:  1rem;     --space-md:  1.5rem;  --space-lg: 2rem;
+  --space-xl:  3rem;
+
+  /* lines and corners */
+  --rule-hair:   0.5px;
+  --rule-strong: 1.5px;
+  --radius-control: 4px;
+
+  /* motion — almost none on purpose */
+  --ease-out:  cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-short: 150ms;
+}

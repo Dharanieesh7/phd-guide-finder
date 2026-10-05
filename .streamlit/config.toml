@@ -5,3 +5,21 @@ fileWatcherType = "none"
 
 [browser]
 gatherUsageStats = false
+
+[client]
+# Hide Streamlit's own developer buttons (like "Deploy") from visitors.
+toolbarMode = "minimal"
+
+[theme]
+# "Reading-room index": ivory paper, dark ink, one green that means "taking students".
+# The exact OKLCH values live in tokens.css; these are the same colours as plain hex for Streamlit.
+base = "light"
+backgroundColor = "#faf6ee"
+secondaryBackgroundColor = "#f1ece3"
+textColor = "#1d1712"
+primaryColor = "#1d1712"    # ink, not green: green is reserved for "taking students"
+linkColor = "#1d1712"
+borderColor = "#d2cdc5"
+baseRadius = "4px"
+font = "IBM Plex Sans:https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap, sans-serif"
+headingFont = "Newsreader:https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,700&display=swap, serif"

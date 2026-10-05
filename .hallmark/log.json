@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2026-10-05",
+    "macrostructure": "Index-First",
+    "theme": "custom",
+    "theme_axes": "light / roman-serif / chromatic-other (green)",
+    "vibe": "journal index, reading room, ivory paper",
+    "enrichment": "none",
+    "nav": "N6 masthead",
+    "footer": "Ft2 inline",
+    "brief": "PhD Guide Finder · Streamlit redesign · find research supervisors, green = taking students"
+  }
+]

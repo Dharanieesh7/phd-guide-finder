@@ -22,7 +22,7 @@ You type a research topic (for example *natural language processing*) and choose
 
 - their job and university, country, and h-index (how much their work is cited)
 - their research subjects and **their recent papers on your topic**, with links
-- **"Taking students?"** — if their homepage says so, the exact sentence is copied as proof, and labelled with what is offered (PhD, Master's, Postdoc, Internship…). An internship-only opening is shown in yellow, so a PhD seeker is not misled.
+- **"Taking students?"** — if their homepage says so, the exact sentence is copied as proof, and labelled with what is offered (PhD, Master's, Postdoc, Internship…). Green is used for exactly one thing on the page — "taking students" — so it is the first thing your eye finds. An internship-only opening gets an outlined square instead, so a PhD seeker is not misled.
 - links to their Google Scholar page and homepage
 - **how they were found** (for example "works with Pheng Ann Heng")
 
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The page opens in your browser. **Saved examples** work straight away — no key, no searches used.
+The page opens in your browser. **Saved searches** (the links under the search sentence) open straight away — no key, no searches used. Every search also gets its own link, e.g. `?q=computer+vision&in=India`, that you can share.
 
 For **new live searches** you need a free SerpApi key (250 searches a month): sign up at [serpapi.com](https://serpapi.com/users/sign_up), then either
 
