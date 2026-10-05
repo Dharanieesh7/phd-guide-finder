@@ -1,0 +1,7 @@
+# Your secret key lives in .env. It must never go to GitHub.
+.env
+
+# Saved search results (they can be re-created)
+cache/
+
+__pycache__/

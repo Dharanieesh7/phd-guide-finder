@@ -1,0 +1,274 @@
+{
+  "topic": "medical image analysis",
+  "country": null,
+  "searched_on": "2026-10-05",
+  "here": [
+    {
+      "name": "Deepak Ranjan Nayak",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Assistant Professor, Malaviya National Institute of Technology Jaipur",
+      "domain": "ieee.org",
+      "country": "India",
+      "subjects": [
+        "Medical Image Analysis",
+        "Computer Vision",
+        "Machine Learning",
+        "Deep Learning",
+        "AI in Healthcare"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Yudong Zhang",
+      "h_index": 32,
+      "papers": [
+        {
+          "title": "EnTrust: Modeling Inter-Modal Conflict for Trustworthy Multimodal Medical Image Analysis",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ciWMFiAAAAAJ&sortby=pubdate&citation_for_view=ciWMFiAAAAAJ:9pM33mqn1YgC"
+        }
+      ],
+      "hiring": "Says so",
+      "proof": "Open Positions Limited Winter/Summer Internship opportunities are available.",
+      "offers": [
+        "Internship"
+      ],
+      "homepage": "https://sites.google.com/view/dr-deepak-ranjan-nayak/home",
+      "scholar_link": "https://scholar.google.com/citations?user=ciWMFiAAAAAJ"
+    },
+    {
+      "name": "Yudong Zhang",
+      "role": "Senior researcher (job title not shown)",
+      "role_note": "",
+      "job": "Southeast University",
+      "domain": "seu.edu.cn",
+      "country": "China",
+      "subjects": [
+        "artificial intelligence",
+        "deep learning",
+        "medical image processing"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 123,
+      "papers": [
+        {
+          "title": "MSLAU‐Net: A Hybrid CNN‐Transformer Network for Medical Image Segmentation",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=A5lgIN8AAAAJ&sortby=pubdate&citation_for_view=A5lgIN8AAAAJ:hKIHPWh8nngC"
+        },
+        {
+          "title": "ShiftMatch: Shifted consistency matters for semi-supervised medical image segmentation",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=A5lgIN8AAAAJ&sortby=pubdate&citation_for_view=A5lgIN8AAAAJ:U073gGq-K-4C"
+        }
+      ],
+      "hiring": "No homepage listed",
+      "proof": "",
+      "offers": [],
+      "homepage": null,
+      "scholar_link": "https://scholar.google.com/citations?user=A5lgIN8AAAAJ"
+    },
+    {
+      "name": "Shuihua Wang",
+      "role": "Senior researcher (job title not shown)",
+      "role_note": "",
+      "job": "Xi'an Jiaotong-Liverpool University",
+      "domain": "xjtlu.edu.cn",
+      "country": "China",
+      "subjects": [
+        "Artificial intelligence",
+        "Machine Learning",
+        "Bio-Medical image processing",
+        "Deep learning"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 95,
+      "papers": [
+        {
+          "title": "Semi-clmt: A semi-supervised framework for medical image segmentation",
+          "year": "2025",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=B-3bq-IAAAAJ&sortby=pubdate&citation_for_view=B-3bq-IAAAAJ:0sHf1WQLiqoC"
+        },
+        {
+          "title": "HAD-Net: An attention U-based network with hyper-scale shifted aggregating and max-diagonal sampling for medical image segmentation",
+          "year": "2024",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=B-3bq-IAAAAJ&sortby=pubdate&citation_for_view=B-3bq-IAAAAJ:DiEOQNERpHEC"
+        }
+      ],
+      "hiring": "No homepage listed",
+      "proof": "",
+      "offers": [],
+      "homepage": null,
+      "scholar_link": "https://scholar.google.com/citations?user=B-3bq-IAAAAJ"
+    },
+    {
+      "name": "Ratnakar Dash",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Associate professor, CSE Department , NIT Rourkela",
+      "domain": "nitrkl.ac.in",
+      "country": "India",
+      "subjects": [
+        "Image Processing",
+        "Machine Learning",
+        "Computer vision"
+      ],
+      "topic_reason": "their subjects and recent papers",
+      "found_via": "works with Deepak Ranjan Nayak, Dibyasundar Das",
+      "h_index": 33,
+      "papers": [
+        {
+          "title": "Graph-Based Neural Network for Malignancy Detection in Breast Ultrasound Images using Medically Significant Features",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=d57JEd4AAAAJ&sortby=pubdate&citation_for_view=d57JEd4AAAAJ:gsN89kCJA0AC"
+        },
+        {
+          "title": "Kronecker convolutions ensemble vision transformer and 3D kronecker U-net for volumetric segmentation of kidney stones, cysts and tumor from CT scans",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=d57JEd4AAAAJ&sortby=pubdate&citation_for_view=d57JEd4AAAAJ:L7CI7m0gUJcC"
+        },
+        {
+          "title": "Computer tomography image segmentation using Trans-Kronecker encoder and fusion loss function",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=d57JEd4AAAAJ&sortby=pubdate&citation_for_view=d57JEd4AAAAJ:tYavs44e6CUC"
+        }
+      ],
+      "hiring": "No homepage listed",
+      "proof": "",
+      "offers": [],
+      "homepage": null,
+      "scholar_link": "https://scholar.google.com/citations?user=d57JEd4AAAAJ"
+    },
+    {
+      "name": "Dibyasundar Das",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Assistant Professor in CSE Dept., BIT Mesra, Jharkhand, India",
+      "domain": "bitmesra.ac.in",
+      "country": "India",
+      "subjects": [
+        "Machine Learning",
+        "Computer Vision",
+        "Optimization Engineering",
+        "Medical Image Processing"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Deepak Ranjan Nayak",
+      "h_index": 8,
+      "papers": [],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://dibyaresearch.in/",
+      "scholar_link": "https://scholar.google.com/citations?user=qTlXTHMAAAAJ"
+    },
+    {
+      "name": "Jian Wang",
+      "role": "Job not stated",
+      "role_note": "",
+      "job": "University of Leicester",
+      "domain": "leicester.ac.uk",
+      "country": "UK",
+      "subjects": [
+        "Deep Learning",
+        "Medical Image Analysis"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 10,
+      "papers": [
+        {
+          "title": "An evolutionary attention-based network for medical image classification",
+          "year": "2023",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CYGasaEAAAAJ&sortby=pubdate&citation_for_view=CYGasaEAAAAJ:9yKSN-GCB0IC"
+        }
+      ],
+      "hiring": "No homepage listed",
+      "proof": "",
+      "offers": [],
+      "homepage": null,
+      "scholar_link": "https://scholar.google.com/citations?user=CYGasaEAAAAJ"
+    }
+  ],
+  "elsewhere": [],
+  "stats": {
+    "opened": 10,
+    "off_topic": 4,
+    "industry": 0,
+    "scholar_authors": 47,
+    "new_searches": 0
+  },
+  "trail": [
+    {
+      "name": "Yudong Zhang",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "seu.edu.cn"
+    },
+    {
+      "name": "Jian Wang",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "leicester.ac.uk"
+    },
+    {
+      "name": "Shuihua Wang",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "xjtlu.edu.cn"
+    },
+    {
+      "name": "Bing Li",
+      "found_via": "works with Yudong Zhang",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "nlpr.ia.ac.cn"
+    },
+    {
+      "name": "Deepak Ranjan Nayak",
+      "found_via": "works with Yudong Zhang",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "ieee.org"
+    },
+    {
+      "name": "M. Tanveer, IEEE CIS Distinguished Lecturer",
+      "found_via": "works with Deepak Ranjan Nayak",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "iiti.ac.in"
+    },
+    {
+      "name": "Dibyasundar Das",
+      "found_via": "works with Deepak Ranjan Nayak",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "bitmesra.ac.in"
+    },
+    {
+      "name": "Ratnakar Dash",
+      "found_via": "works with Deepak Ranjan Nayak, Dibyasundar Das",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "nitrkl.ac.in"
+    },
+    {
+      "name": "Prof. Banshidhar Majhi (B Majhi)",
+      "found_via": "works with Deepak Ranjan Nayak, Dibyasundar Das, Ratnakar Dash",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "cguodisha.ac.in"
+    },
+    {
+      "name": "Ram Bilas Pachori",
+      "found_via": "works with Deepak Ranjan Nayak",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "iiti.ac.in"
+    }
+  ]
+}

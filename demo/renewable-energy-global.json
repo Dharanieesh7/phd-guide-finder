@@ -1,0 +1,230 @@
+{
+  "topic": "renewable energy",
+  "country": null,
+  "searched_on": "2026-10-05",
+  "here": [
+    {
+      "name": "Abdul-Ghani Olabi",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Professor, University of Sharjah",
+      "domain": "sharjah.ac.ae",
+      "country": "UAE",
+      "subjects": [
+        "Renewable Energy",
+        "Energy Storage Systems",
+        "CAD and Design",
+        "Smart Materials"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 141,
+      "papers": [
+        {
+          "title": "Advances in hybrid renewable energy systems coupled with mechanical energy storage: Progress and challenges",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JNOFSa4AAAAJ&sortby=pubdate&citation_for_view=JNOFSa4AAAAJ:RZBefGmQYygC"
+        },
+        {
+          "title": "The 5Ds of energy market: decarbonization, deregulation, decentralization, democratization, and digitalization",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JNOFSa4AAAAJ&sortby=pubdate&citation_for_view=JNOFSa4AAAAJ:MvIMIWP2nqIC"
+        },
+        {
+          "title": "Hybrid solar-geothermal energy systems: Technological developments, challenges, and scientific research dynamics",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JNOFSa4AAAAJ&sortby=pubdate&citation_for_view=JNOFSa4AAAAJ:LzOrNEA7mwcC"
+        }
+      ],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "http://www.sharjah.ac.ae/",
+      "scholar_link": "https://scholar.google.com/citations?user=JNOFSa4AAAAJ"
+    },
+    {
+      "name": "Tareq Salameh",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Associate Professor at University of Sharjah",
+      "domain": "sharjah.ac.ae",
+      "country": "UAE",
+      "subjects": [
+        "Sustainable Energy",
+        "Renewable Energy",
+        "Energy Efficiency",
+        "CFD",
+        "Heat Transfer"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Abdul-Ghani Olabi",
+      "h_index": 43,
+      "papers": [
+        {
+          "title": "CFD and techno-economic analysis of site-dependent renewable trigeneration in solar chimney power plant",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QFweE6YAAAAJ&sortby=pubdate&citation_for_view=QFweE6YAAAAJ:EkHepimYqZsC"
+        },
+        {
+          "title": "Performance, economic, and environmental assessment of PV and PVT systems in Lebanon: A comparative case study",
+          "year": "2025",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QFweE6YAAAAJ&sortby=pubdate&citation_for_view=QFweE6YAAAAJ:t7zJ5fGR-2UC"
+        },
+        {
+          "title": "Assessing the Energy Efficiency and Environmental Impact of Solar Water",
+          "year": "2025",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QFweE6YAAAAJ&sortby=pubdate&citation_for_view=QFweE6YAAAAJ:fEOibwPWpKIC"
+        }
+      ],
+      "hiring": "Homepage would not open",
+      "proof": "",
+      "offers": [],
+      "homepage": "http://www.sharjah.ac.ae/en/academics/Colleges/eng/dept/sre/Pages/ppl_detail.aspx?mcid=5&clt=en",
+      "scholar_link": "https://scholar.google.com/citations?user=QFweE6YAAAAJ"
+    },
+    {
+      "name": "Mamdouh Assad",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Professor, University of Sharjah",
+      "domain": "sharjah.ac.ae",
+      "country": "UAE",
+      "subjects": [
+        "Geothermal",
+        "Solar",
+        "Wind",
+        "Energy storage",
+        "Absorption chillers"
+      ],
+      "topic_reason": "their subjects and recent papers",
+      "found_via": "works with Dr.Mohamed Salem",
+      "h_index": 55,
+      "papers": [
+        {
+          "title": "Energy and exergy analyses of geothermal power plants",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=sLPEf0MAAAAJ&sortby=pubdate&citation_for_view=sLPEf0MAAAAJ:KI9T_ytC6pkC"
+        }
+      ],
+      "hiring": "No homepage listed",
+      "proof": "",
+      "offers": [],
+      "homepage": null,
+      "scholar_link": "https://scholar.google.com/citations?user=sLPEf0MAAAAJ"
+    },
+    {
+      "name": "Dr.Mohamed Salem",
+      "role": "Senior researcher (job title not shown)",
+      "role_note": "",
+      "job": "Libyan Authority for Scientific Research",
+      "domain": "ieee.org",
+      "country": "Not sure",
+      "subjects": [
+        "Power Electronics",
+        "Renewable Energy",
+        "Power Electronics Converter",
+        "Microgrids"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 32,
+      "papers": [
+        {
+          "title": "Renewable Energies in Kazakhstan: Current Status, Potential, Challenges, and Opportunities",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qj0Yk3MAAAAJ&sortby=pubdate&citation_for_view=qj0Yk3MAAAAJ:ZzlSgRqYykMC"
+        },
+        {
+          "title": "The Role of Green Hydrogen in the Transition to Renewable Energy: Production, Marketing Strategies and Future Prospects",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qj0Yk3MAAAAJ&sortby=pubdate&citation_for_view=qj0Yk3MAAAAJ:GFxP56DSvIMC"
+        }
+      ],
+      "hiring": "Homepage would not open",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://www.researchgate.net/profile/Mohamed_Salem47",
+      "scholar_link": "https://scholar.google.com/citations?user=qj0Yk3MAAAAJ"
+    }
+  ],
+  "elsewhere": [],
+  "stats": {
+    "opened": 10,
+    "off_topic": 6,
+    "industry": 0,
+    "scholar_authors": 44,
+    "new_searches": 0
+  },
+  "trail": [
+    {
+      "name": "Abdul-Ghani Olabi",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "sharjah.ac.ae"
+    },
+    {
+      "name": "Mohammad Ali Abdelkareem",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "sharjah.ac.ae"
+    },
+    {
+      "name": "Prof. Dr. Tariq J. Al-Musawi",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "uomus.edu.iq"
+    },
+    {
+      "name": "Bashar Mahmood Ali",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "alnoor.edu.iq"
+    },
+    {
+      "name": "Dr.Mohamed Salem",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "ieee.org"
+    },
+    {
+      "name": "Ahmed Al Makky",
+      "found_via": "works with Abdul-Ghani Olabi",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "sharjah.ac.ae"
+    },
+    {
+      "name": "Mamdouh Assad",
+      "found_via": "works with Dr.Mohamed Salem",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "sharjah.ac.ae"
+    },
+    {
+      "name": "Ir. Dr. Mohamad Kamarol Mohd Jamil",
+      "found_via": "works with Dr.Mohamed Salem",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "usm.my"
+    },
+    {
+      "name": "Hussein M. Maghrabie",
+      "found_via": "works with Abdul-Ghani Olabi",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "eng.svu.edu.eg"
+    },
+    {
+      "name": "Tareq Salameh",
+      "found_via": "works with Abdul-Ghani Olabi",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "sharjah.ac.ae"
+    }
+  ]
+}

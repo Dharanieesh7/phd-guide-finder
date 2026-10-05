@@ -1,0 +1,280 @@
+{
+  "topic": "natural language processing",
+  "country": "India",
+  "searched_on": "2026-10-05",
+  "here": [
+    {
+      "name": "Tanmoy Chakraborty",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Professor, IIT Delhi, India",
+      "domain": "iitd.ac.in",
+      "country": "India",
+      "subjects": [
+        "Natural Language Processing",
+        "Large Language Models",
+        "Social Computing",
+        "AI for Mental Health"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Kripabandhu Ghosh",
+      "h_index": 54,
+      "papers": [],
+      "hiring": "Says so",
+      "proof": "I am looking for motivated MS (by Research), PhD Students and Postdocs.",
+      "offers": [
+        "PhD",
+        "Master's",
+        "Postdoc"
+      ],
+      "homepage": "https://tanmoychak.com/",
+      "scholar_link": "https://scholar.google.com/citations?user=C5S9JnIAAAAJ"
+    },
+    {
+      "name": "Kripabandhu Ghosh",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Associate Professor, IISER Kolkata, India",
+      "domain": "iiserkol.ac.in",
+      "country": "India",
+      "subjects": [
+        "Information Retrieval",
+        "Machine Learning",
+        "Natural Language Processing"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 31,
+      "papers": [],
+      "hiring": "Says so",
+      "proof": "I am looking for motivated PhD students with strong technical (ML / NLP) and communication skills.",
+      "offers": [
+        "PhD"
+      ],
+      "homepage": "https://sites.google.com/view/kripabandhughosh-homepage/home",
+      "scholar_link": "https://scholar.google.com/citations?user=6CszmskAAAAJ"
+    },
+    {
+      "name": "Dr. Pushpak Bhattacharyya",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Professor of Computer Science and Engineering, IIT Bombay",
+      "domain": "cse.iitb.ac.in",
+      "country": "India",
+      "subjects": [
+        "Natural Language Processing",
+        "Machine Learning",
+        "Machine Translation",
+        "Cross Lingual IR",
+        "Word Sense Disambiguation"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Prasenjit Majumder",
+      "h_index": 70,
+      "papers": [
+        {
+          "title": "From Lexicon to AI: A Structured-Data Pipeline for Specialized Conversational Systems in Low-Resource Languages",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vvg-pAkAAAAJ&sortby=pubdate&citation_for_view=vvg-pAkAAAAJ:MDBbo4b0KHEC"
+        }
+      ],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "http://www.cse.iitb.ac.in/~pb",
+      "scholar_link": "https://scholar.google.com/citations?user=vvg-pAkAAAAJ"
+    },
+    {
+      "name": "Bidyut Baran Chaudhuri",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "INAE Distinguished Professor and J. C. Bose Fellow, Indian Statistical Institute",
+      "domain": "isical.ac.in",
+      "country": "India",
+      "subjects": [
+        "Computer Vision",
+        "Pattern Recognition",
+        "Digital Document Processing",
+        "OCR",
+        "NLP"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Prasenjit Majumder",
+      "h_index": 67,
+      "papers": [],
+      "hiring": "Homepage would not open",
+      "proof": "",
+      "offers": [],
+      "homepage": "http://www.isical.ac.in/~bbc/",
+      "scholar_link": "https://scholar.google.com/citations?user=LYNgDQ8AAAAJ"
+    },
+    {
+      "name": "Prasenjit Majumder",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Professor, DAIICT",
+      "domain": "daiict.ac.in",
+      "country": "India",
+      "subjects": [
+        "INFORMATION RETRIEVAL",
+        "NLP",
+        "DIGITAL HUMANITIES"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Kripabandhu Ghosh",
+      "h_index": 28,
+      "papers": [
+        {
+          "title": "Efficiency of large language models to scale up ground truth: Overview of the irse track at forum for information retrieval 2023",
+          "year": "2023",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3xIpiKEAAAAJ&sortby=pubdate&citation_for_view=3xIpiKEAAAAJ:uc_IGeMz5qoC"
+        }
+      ],
+      "hiring": "Homepage would not open",
+      "proof": "",
+      "offers": [],
+      "homepage": "http://intranet.daiict.ac.in/~p_majumder",
+      "scholar_link": "https://scholar.google.com/citations?user=3xIpiKEAAAAJ"
+    }
+  ],
+  "elsewhere": [
+    {
+      "name": "Jack G. Conrad",
+      "role": "Senior researcher (job title not shown)",
+      "role_note": "",
+      "job": "Thomson Reuters",
+      "domain": "acm.org",
+      "country": "Not sure",
+      "subjects": [
+        "Information Retrieval",
+        "Natural Language Processing",
+        "Artificial Intelligence & Law"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 23,
+      "papers": [],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://jackgconrad.github.io/",
+      "scholar_link": "https://scholar.google.com/citations?user=55B4Io4AAAAJ"
+    },
+    {
+      "name": "Jad Kabbara",
+      "role": "Job not stated",
+      "role_note": "",
+      "job": "MIT",
+      "domain": "mit.edu",
+      "country": "USA",
+      "subjects": [
+        "AI",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Computational Social Science"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 15,
+      "papers": [],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://www.mit.edu/~jkabbara/",
+      "scholar_link": "https://scholar.google.com/citations?user=EDrwalIAAAAJ"
+    }
+  ],
+  "stats": {
+    "opened": 12,
+    "off_topic": 5,
+    "industry": 0,
+    "scholar_authors": 42,
+    "new_searches": 0
+  },
+  "trail": [
+    {
+      "name": "Jad Kabbara",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": false,
+      "domain": "mit.edu"
+    },
+    {
+      "name": "Amandalynne Paullada",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": false,
+      "in_country": false,
+      "domain": "uw.edu"
+    },
+    {
+      "name": "Debasis Ganguly",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": false,
+      "in_country": false,
+      "domain": "glasgow.ac.uk"
+    },
+    {
+      "name": "Jack G. Conrad",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": false,
+      "domain": "acm.org"
+    },
+    {
+      "name": "Kripabandhu Ghosh",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "iiserkol.ac.in"
+    },
+    {
+      "name": "Tanmoy Chakraborty",
+      "found_via": "works with Kripabandhu Ghosh",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "iitd.ac.in"
+    },
+    {
+      "name": "Prasenjit Majumder",
+      "found_via": "works with Kripabandhu Ghosh",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "daiict.ac.in"
+    },
+    {
+      "name": "Dr. Pushpak Bhattacharyya",
+      "found_via": "works with Prasenjit Majumder",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "cse.iitb.ac.in"
+    },
+    {
+      "name": "Bidyut Baran Chaudhuri",
+      "found_via": "works with Prasenjit Majumder",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "isical.ac.in"
+    },
+    {
+      "name": "Ujjwal Bhattacharya",
+      "found_via": "works with Bidyut Baran Chaudhuri",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "isical.ac.in"
+    },
+    {
+      "name": "Swapan Kumar Parui",
+      "found_via": "works with Bidyut Baran Chaudhuri, Kripabandhu Ghosh, Prasenjit Majumder",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "isical.ac.in"
+    },
+    {
+      "name": "P. Nagabhushan",
+      "found_via": "works with Bidyut Baran Chaudhuri",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "compsci.unimysore.ac.in"
+    }
+  ]
+}

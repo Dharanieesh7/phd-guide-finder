@@ -1,0 +1,208 @@
+{
+  "topic": "natural language processing",
+  "country": null,
+  "searched_on": "2026-10-05",
+  "here": [
+    {
+      "name": "Eneko Agirre (ORCID 0000-0002-0195-4899)",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Full Professor, Director of HiTZ center, member of Ixa, University of the Basque Country (UPV/EHU)",
+      "domain": "ehu.eus",
+      "country": "Spain",
+      "subjects": [
+        "Natural Language Processing",
+        "Computational Linguistics",
+        "Deep Learning",
+        "Machine Learning",
+        "Artificial Intelligence"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Lluís Màrquez",
+      "h_index": 68,
+      "papers": [
+        {
+          "title": "Do not be greedy, Think Twice: Sampling and Selection for Document-level Information Extraction",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kSuqts0AAAAJ&sortby=pubdate&citation_for_view=kSuqts0AAAAJ:WwIwg2wKZ0QC"
+        }
+      ],
+      "hiring": "Homepage would not open",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://hitz.ehu.eus/eneko/",
+      "scholar_link": "https://scholar.google.com/citations?user=kSuqts0AAAAJ"
+    },
+    {
+      "name": "Chengwei Qin",
+      "role": "Professor or group leader",
+      "role_note": "(\"assistant professor\" on their homepage)",
+      "job": "HKUST(GZ), NTU, THU",
+      "domain": "hkustgz.edu.cn",
+      "country": "China",
+      "subjects": [
+        "LLMs",
+        "NLP"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 27,
+      "papers": [],
+      "hiring": "Says so",
+      "proof": "To prospective students: Please include “[Enrolling Year] Prospective Student - PhD/Postdoc/RA/Visiting Student” in the subject line of your email.",
+      "offers": [
+        "PhD",
+        "Postdoc",
+        "Research assistant",
+        "Visiting student"
+      ],
+      "homepage": "https://qcwthu.github.io/",
+      "scholar_link": "https://scholar.google.com/citations?user=OwBrmXwAAAAJ"
+    },
+    {
+      "name": "Shafiq Joty",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Sr. Research Director at Salesforce Research, Assoc. Prof. at NTU (on leave)",
+      "domain": "ntu.edu.sg",
+      "country": "Singapore",
+      "subjects": [
+        "Natural Language Processing",
+        "Machine Learning"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Chengwei Qin",
+      "h_index": 72,
+      "papers": [],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://raihanjoty.github.io/",
+      "scholar_link": "https://scholar.google.com/citations?user=hR249csAAAAJ"
+    },
+    {
+      "name": "Lluís Màrquez",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Associate Professor at the Technical University of Catalonia",
+      "domain": "upc.edu",
+      "country": "Spain",
+      "subjects": [
+        "Artificial Intelligence",
+        "Natural Language Processing",
+        "Machine Learning"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Shafiq Joty",
+      "h_index": 60,
+      "papers": [],
+      "hiring": "No homepage listed",
+      "proof": "",
+      "offers": [],
+      "homepage": null,
+      "scholar_link": "https://scholar.google.com/citations?user=yFNUfjsAAAAJ"
+    },
+    {
+      "name": "Joakim Nivre",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Professor of Computational Linguistics, Uppsala University",
+      "domain": "lingfil.uu.se",
+      "country": "Sweden",
+      "subjects": [
+        "Computational Linguistics",
+        "Natural Language Processing",
+        "Dependency Parsing"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Lluís Màrquez",
+      "h_index": 72,
+      "papers": [],
+      "hiring": "Homepage would not open",
+      "proof": "",
+      "offers": [],
+      "homepage": "http://stp.lingfil.uu.se/~nivre",
+      "scholar_link": "https://scholar.google.com/citations?user=lLBHtFUAAAAJ"
+    }
+  ],
+  "elsewhere": [],
+  "stats": {
+    "opened": 10,
+    "off_topic": 4,
+    "industry": 1,
+    "scholar_authors": 49,
+    "new_searches": 0
+  },
+  "trail": [
+    {
+      "name": "Aditya Koli",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "manavrachna.net"
+    },
+    {
+      "name": "Dr. Kiran Khatter",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "bmu.edu.in"
+    },
+    {
+      "name": "Sukhdev Singh",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "thapar.edu"
+    },
+    {
+      "name": "Chengwei Qin",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "hkustgz.edu.cn"
+    },
+    {
+      "name": "Aston Zhang",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "openai.com"
+    },
+    {
+      "name": "Ruochen (Esther) Zhao",
+      "found_via": "works with Chengwei Qin",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "sutd.edu.sg"
+    },
+    {
+      "name": "Shafiq Joty",
+      "found_via": "works with Chengwei Qin",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "ntu.edu.sg"
+    },
+    {
+      "name": "Lluís Màrquez",
+      "found_via": "works with Shafiq Joty",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "upc.edu"
+    },
+    {
+      "name": "Joakim Nivre",
+      "found_via": "works with Lluís Màrquez",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "lingfil.uu.se"
+    },
+    {
+      "name": "Eneko Agirre (ORCID 0000-0002-0195-4899)",
+      "found_via": "works with Lluís Màrquez",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "ehu.eus"
+    }
+  ]
+}
