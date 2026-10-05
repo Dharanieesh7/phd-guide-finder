@@ -1,4 +1,4 @@
-﻿# 🎓 PhD Guide Finder
+# 🎓 PhD Guide Finder
 
 **Find professors who are actively researching your topic — in India or anywhere — and see, with proof from their own homepage, whether they are taking students.**
 
