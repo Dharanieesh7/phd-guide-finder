@@ -1,4 +1,4 @@
-# 🎓 PhD Guide Finder
+﻿# 🎓 PhD Guide Finder
 
 **Find professors who are actively researching your topic — in India or anywhere — and see, with proof from their own homepage, whether they are taking students.**
 
@@ -109,4 +109,4 @@ Only public information is used: Google Scholar profiles and public homepages. Y
 
 ## Credits
 
-Built by Dharanieesh M D for the SerpApi India Hackathon 2026. Developed with help from Claude (Anthropic) as a coding assistant.
+Built by M D Dharanieesh for the SerpApi India Hackathon 2026. Developed with help from Claude (Anthropic) as a coding assistant.
