@@ -87,6 +87,7 @@ python finder.py "natural language processing" --country India
 ## Honest limitations
 
 - **Works best where researchers use Google Scholar.** In 20 recent papers per topic, the number of authors with a Scholar page was: natural language processing 49, medical image analysis 47, renewable energy 44, constitutional law 20, English literature 9. Science, engineering, computing and medicine work well; law partly; literature and languages poorly. The page warns you when a subject looks thin.
+- **Very broad topics work worse than specific ones.** A live search for *machine learning* in India found only 1 researcher: 11 of the 12 profiles it opened were mechanical engineers, doctors and others who *use* machine learning in their own field. The page now suggests a more specific topic when this happens. In our tests, specific topics such as *computer vision* (7 professors in India) and *natural language processing* (5) worked well.
 - **Results depend on where the search starts.** Co-author networks cluster: one renewable-energy search found three professors at the same university. Try *Thorough*, a different wording of the topic, or a country.
 - **Country is a best guess** from the email ending and the job text. An Indian university with a `.com` email and no place name in its title may be missed.
 - **"Not mentioned" does not mean "no".** Many professors take students without saying so online — email them and ask.

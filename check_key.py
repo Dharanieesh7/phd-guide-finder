@@ -13,9 +13,17 @@ if not key or key == "paste-your-key-here":
     print("No key found. Open the .env file and paste your key after SERPAPI_API_KEY=")
     raise SystemExit
 
-response = requests.get("https://serpapi.com/account.json", params={"api_key": key}, timeout=30)
-if response.status_code != 200:
+try:
+    response = requests.get("https://serpapi.com/account.json", params={"api_key": key}, timeout=30)
+except requests.RequestException:
+    # Don't print the error itself: it contains the request address, which includes your key.
+    print("Could not reach SerpApi. Check your internet connection and try again.")
+    raise SystemExit
+if response.status_code in (401, 403):
     print("SerpApi did not accept this key. Copy it again from your dashboard and make sure nothing is missing.")
+    raise SystemExit
+if response.status_code != 200:
+    print(f"SerpApi had a temporary problem (status {response.status_code}). Try again in a minute.")
     raise SystemExit
 
 # Never print the whole reply: it contains your key.

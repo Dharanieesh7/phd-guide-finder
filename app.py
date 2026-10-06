@@ -19,7 +19,7 @@ import streamlit as st
 
 import finder
 from make_demo import file_name
-from serp import env_key, searches_left
+from serp import UNKNOWN_LEFT, env_key, searches_left
 
 FOLDER = Path(__file__).parent
 DEMO = FOLDER / "demo"
@@ -67,7 +67,7 @@ def searches_left_for(key):
     """Searches left on this key (free check). Remembered for this tab so the page stays fast."""
     tag = hashlib.sha256(key.encode()).hexdigest()
     remembered = st.session_state.get("left")
-    if not remembered or remembered[0] != tag:
+    if not remembered or remembered[0] != tag or remembered[1] == UNKNOWN_LEFT:   # ask again after a hiccup
         st.session_state["left"] = (tag, searches_left(key))
     return st.session_state["left"][1]
 
@@ -176,6 +176,11 @@ def summary_html(result, how):
                 'languages and some law topics), so this list may be short. Also check university department pages.</p>')
     if not n:
         out += '<p class="note">Try a broader topic, or search in any country.</p>'
+    elif n <= 2 and stats["off_topic"] >= 8:
+        # Seen with "machine learning" in India: most papers came from people in other fields using it.
+        out += ('<p class="note">Very broad topics match many papers by people from other fields who just use the '
+                'method. A more specific topic usually finds more guides — for example “speech recognition” '
+                'instead of “machine learning”.</p>')
     return out
 
 
@@ -237,7 +242,9 @@ put(f"<style>{(FOLDER / 'tokens.css').read_text(encoding='utf-8')}\n"
 key = env_key() or st.session_state.get("user_key", "").strip()
 left = searches_left_for(key) if key else None
 meta = "Live from Google Scholar · via SerpApi"
-if left is not None:
+if left == UNKNOWN_LEFT:
+    meta += " · couldn't check searches left right now"
+elif left is not None:
     meta += f" · {left} searches left on your key"
 put(f'<header class="mast"><span class="mast__word">PhD Guide Finder</span>'
     f'<span class="mast__meta">{esc(meta)}</span></header>')

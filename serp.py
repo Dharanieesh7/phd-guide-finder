@@ -4,6 +4,8 @@ from pathlib import Path
 import hashlib
 import json
 import os
+import re
+import time
 
 import requests
 import serpapi
@@ -17,8 +19,22 @@ load_dotenv(FOLDER / ".env", encoding="utf-8-sig")
 spent = {"searches": 0}
 
 
+RETRIES = 2            # a dropped connection is tried again twice before giving up
+REQUEST_TIMEOUT = 60   # seconds; Scholar profile pages can take ~20 s, a stalled connection never ends
+
+
 class NotSaved(Exception):
     """Raised in offline mode when a search is not saved yet (so nothing is ever spent by accident)."""
+
+
+class SearchFailed(Exception):
+    """SerpApi could not be reached. The message never contains the API key."""
+
+
+def without_key(message, key=""):
+    """Remove the API key from any text (error messages include the request address, key and all)."""
+    message = re.sub(r"api_key=[^&\s'\")]+", "api_key=•••", message)
+    return message.replace(key, "•••") if key else message
 
 
 def offline():
@@ -41,16 +57,23 @@ def env_key():
     return "" if key == "paste-your-key-here" else key
 
 
+UNKNOWN_LEFT = "?"   # SerpApi couldn't be asked right now (network hiccup) — not the same as a bad key
+
+
 def searches_left(key):
     """How many searches this key has left this month. SerpApi's Account API is free (costs 0 searches).
-    Returns None if the key is not accepted."""
-    try:
-        response = requests.get("https://serpapi.com/account.json", params={"api_key": key}, timeout=20)
-    except requests.RequestException:
-        return None
-    if response.status_code != 200:
-        return None
-    return response.json().get("total_searches_left")   # never print the whole reply: it contains the key
+    Returns None only if SerpApi REJECTS the key, and UNKNOWN_LEFT if it just couldn't be reached."""
+    for attempt in range(RETRIES + 1):
+        try:
+            response = requests.get("https://serpapi.com/account.json", params={"api_key": key}, timeout=20)
+        except requests.RequestException:      # never show this error: it contains the key in the address
+            continue
+        if response.status_code in (401, 403):
+            return None
+        if response.status_code == 200:
+            return response.json().get("total_searches_left")   # never print the whole reply: it has the key
+        time.sleep(attempt + 1)
+    return UNKNOWN_LEFT
 
 
 def search(params, key=None):
@@ -62,8 +85,18 @@ def search(params, key=None):
     if offline():
         raise NotSaved(params)
 
-    client = serpapi.Client(api_key=(key or env_key()).strip())
-    data = client.search(params).as_dict()
+    api_key = (key or env_key()).strip()
+    # A time limit matters: without one, a connection that silently drops makes the search wait forever.
+    client = serpapi.Client(api_key=api_key, timeout=REQUEST_TIMEOUT)
+    for attempt in range(RETRIES + 1):
+        try:
+            data = client.search(params).as_dict()
+            break
+        except Exception as problem:            # e.g. a dropped connection on a flaky network
+            if attempt == RETRIES:
+                # Error texts contain the request address, which includes the key: never pass that on.
+                raise SearchFailed(without_key(str(problem), api_key)) from None
+            time.sleep(2 * (attempt + 1))
     spent["searches"] += 1
 
     # Only keep good results. An error (for example "no results") is not saved.

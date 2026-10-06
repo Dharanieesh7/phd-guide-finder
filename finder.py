@@ -32,6 +32,7 @@ SEEDS_WANTED = 3     # how many good starting researchers step 2 looks for
 SEED_TRIES = 5       # ...and how many it may try before moving on
 RECENT_YEARS = 3     # "recent" = papers from the last 3 years
 PAPER_YEARS = 5      # step 1 looks at topic papers from the last 5 years
+MIN_SEED_AUTHORS = 12  # fewer profile-linked authors than this on page 1 = read a second page of papers
 
 PROFESSOR = "Professor or group leader"
 STUDENT = "Student or postdoc"
@@ -172,6 +173,12 @@ def in_country(person, country):
 
 # ---------- talking to SerpApi ----------
 
+def linked_authors(papers):
+    """How many different authors in these papers have a Google Scholar profile we can open."""
+    return len({a["author_id"] for p in papers for a in (p.get("publication_info") or {}).get("authors", [])
+                if a.get("author_id")})
+
+
 def find_paper_authors(topic, country=None, key=None):
     """Step 1: recent papers on the topic. Returns author IDs, strongest first (weighted by citations).
     With a country, the search also asks for that country's name, so the papers come from there.
@@ -182,9 +189,14 @@ def find_paper_authors(topic, country=None, key=None):
     if country:
         country = standard_country(country)
         query += f' "{COUNTRY_HINTS.get(country, country.title())}"'
-    data = search({"engine": "google_scholar", "q": query, "as_ylo": since, "num": 20}, key)
+    params = {"engine": "google_scholar", "q": query, "as_ylo": since, "num": 20}
+    papers = search(params, key).get("organic_results", [])
+    if linked_authors(papers) < MIN_SEED_AUTHORS:
+        # For some topics Scholar links few author profiles on the first page (seen with
+        # "speech recognition": 5 linked authors vs ~45 usually). Read one more page of papers.
+        papers += search({**params, "start": 20}, key).get("organic_results", [])
     score = defaultdict(float)
-    for paper in data.get("organic_results", []):
+    for paper in papers:
         cites = ((paper.get("inline_links") or {}).get("cited_by") or {}).get("total") or 0
         for author in (paper.get("publication_info") or {}).get("authors", []):
             if author.get("author_id"):

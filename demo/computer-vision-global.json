@@ -1,0 +1,297 @@
+{
+  "topic": "computer vision",
+  "country": null,
+  "searched_on": "2026-10-06",
+  "here": [
+    {
+      "name": "Mark Nixon",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Professor of Electronics and Computer Science, University of Southampton",
+      "domain": "soton.ac.uk",
+      "country": "UK",
+      "subjects": [
+        "Computer Vision",
+        "Biometrics",
+        "Gait",
+        "Ear",
+        "Soft"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 80,
+      "papers": [
+        {
+          "title": "Feature extraction and image processing for computer vision",
+          "year": "2025",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=hlHOU9IAAAAJ&sortby=pubdate&citation_for_view=hlHOU9IAAAAJ:u5HHmVD_uO8C"
+        }
+      ],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "http://www.ecs.soton.ac.uk/~msn",
+      "scholar_link": "https://scholar.google.com/citations?user=hlHOU9IAAAAJ"
+    },
+    {
+      "name": "Ralph R. Martin",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Emeritus Professor, Cardiff University",
+      "domain": "cs.cf.ac.uk",
+      "country": "UK",
+      "subjects": [
+        "Geometric Computing",
+        "Geometric Modeling",
+        "Computer Aided Design",
+        "Computer Graphics",
+        "Computer Vision"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Meng-Hao Guo, Tian-Xing Xu",
+      "h_index": 66,
+      "papers": [
+        {
+          "title": "Long range pooling for 3D large-scale scene understanding",
+          "year": "2023",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=INLQHkrsd2QJ&sortby=pubdate&citation_for_view=INLQHkrsd2QJ:TiIbgCYny7sC"
+        }
+      ],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://www.rrm.me.uk/",
+      "scholar_link": "https://scholar.google.com/citations?user=INLQHkrsd2QJ"
+    },
+    {
+      "name": "Yu-Kun Lai",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Professor, Cardiff University",
+      "domain": "cs.cf.ac.uk",
+      "country": "UK",
+      "subjects": [
+        "Geometric Modeling",
+        "Geometry Processing",
+        "Computer Graphics",
+        "Image Processing",
+        "Computer Vision"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Ralph R. Martin, Shi-Min Hu, Tian-Xing Xu",
+      "h_index": 67,
+      "papers": [
+        {
+          "title": "Multi-task geometric estimation of depth and surface normal from monocular 360° images",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0i-Nzv0AAAAJ&sortby=pubdate&citation_for_view=0i-Nzv0AAAAJ:pS0ncopqnHgC"
+        }
+      ],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://yukunlai.github.io/",
+      "scholar_link": "https://scholar.google.com/citations?user=0i-Nzv0AAAAJ"
+    },
+    {
+      "name": "Niloy J. Mitra",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Professor of Computer Science, University College London (UCL) and Adobe Research London",
+      "domain": "cs.ucl.ac.uk",
+      "country": "UK",
+      "subjects": [
+        "shape analysis",
+        "geometry processing",
+        "geometric modeling",
+        "architectural geometry",
+        "digital fabrication"
+      ],
+      "topic_reason": "their subjects and recent papers",
+      "found_via": "works with Ming-Ming Cheng, Shi-Min Hu",
+      "h_index": 85,
+      "papers": [
+        {
+          "title": "Shape space generation via progressive correspondence estimation",
+          "year": "2026",
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dPrZJWMAAAAJ&sortby=pubdate&citation_for_view=dPrZJWMAAAAJ:7H_jS4BsgvYC"
+        }
+      ],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://geometry.cs.ucl.ac.uk/",
+      "scholar_link": "https://scholar.google.com/citations?user=dPrZJWMAAAAJ"
+    },
+    {
+      "name": "Ming-Ming Cheng",
+      "role": "Professor or group leader",
+      "role_note": "",
+      "job": "Professor of Computer Science, Nankai University",
+      "domain": "nankai.edu.cn",
+      "country": "China",
+      "subjects": [
+        "Computer Vision",
+        "Computer Graphics",
+        "Visual Attention",
+        "Saliency"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Meng-Hao Guo, Ralph R. Martin",
+      "h_index": 116,
+      "papers": [],
+      "hiring": "Homepage would not open",
+      "proof": "",
+      "offers": [],
+      "homepage": "http://mmcheng.net/cmm/",
+      "scholar_link": "https://scholar.google.com/citations?user=huWpVyEAAAAJ"
+    },
+    {
+      "name": "Shi-Min Hu",
+      "role": "Senior researcher (job title not shown)",
+      "role_note": "",
+      "job": "Tsinghua University",
+      "domain": "tsinghua.edu.cn",
+      "country": "China",
+      "subjects": [
+        "Geometry processing",
+        "Geometric Modeling",
+        "Computer Graphics",
+        "Image and Video processing",
+        "Computer Aided Design"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "works with Meng-Hao Guo, Ming-Ming Cheng, Ralph R. Martin, Tian-Xing Xu",
+      "h_index": 79,
+      "papers": [],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "http://cg.cs.tsinghua.edu.cn/",
+      "scholar_link": "https://scholar.google.com/citations?user=LDb4tb0AAAAJ"
+    },
+    {
+      "name": "Meng-Hao Guo",
+      "role": "Student or postdoc",
+      "role_note": "",
+      "job": "Postdoc, Tsinghua University",
+      "domain": "mails.tsinghua.edu.cn",
+      "country": "China",
+      "subjects": [
+        "Foundation Models",
+        "Computer Vision",
+        "Computer Graphics"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 17,
+      "papers": [],
+      "hiring": "Not mentioned",
+      "proof": "",
+      "offers": [],
+      "homepage": "https://menghaoguo.github.io/",
+      "scholar_link": "https://scholar.google.com/citations?user=DnXVAgcAAAAJ"
+    },
+    {
+      "name": "Tian-Xing Xu",
+      "role": "Job not stated",
+      "role_note": "",
+      "job": "Tsinghua University",
+      "domain": "mails.tsinghua.edu.cn",
+      "country": "China",
+      "subjects": [
+        "3D CV"
+      ],
+      "topic_reason": "their listed subjects",
+      "found_via": "wrote recent papers on the topic",
+      "h_index": 8,
+      "papers": [],
+      "hiring": "No homepage listed",
+      "proof": "",
+      "offers": [],
+      "homepage": null,
+      "scholar_link": "https://scholar.google.com/citations?user=zHp0rMIAAAAJ"
+    }
+  ],
+  "elsewhere": [],
+  "stats": {
+    "opened": 10,
+    "off_topic": 2,
+    "industry": 0,
+    "scholar_authors": 60,
+    "new_searches": 7
+  },
+  "trail": [
+    {
+      "name": "Pietro Mascagni",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "unicatt.it"
+    },
+    {
+      "name": "Mark Nixon",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "soton.ac.uk"
+    },
+    {
+      "name": "Meng-Hao Guo",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "mails.tsinghua.edu.cn"
+    },
+    {
+      "name": "Tian-Xing Xu",
+      "found_via": "wrote recent papers on the topic",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "mails.tsinghua.edu.cn"
+    },
+    {
+      "name": "Ralph R. Martin",
+      "found_via": "works with Meng-Hao Guo, Tian-Xing Xu",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "cs.cf.ac.uk"
+    },
+    {
+      "name": "Song-Hai Zhang",
+      "found_via": "works with Meng-Hao Guo, Ralph R. Martin, Tian-Xing Xu",
+      "on_topic": false,
+      "in_country": true,
+      "domain": "tsinghua.edu.cn"
+    },
+    {
+      "name": "Ming-Ming Cheng",
+      "found_via": "works with Meng-Hao Guo, Ralph R. Martin",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "nankai.edu.cn"
+    },
+    {
+      "name": "Shi-Min Hu",
+      "found_via": "works with Meng-Hao Guo, Ming-Ming Cheng, Ralph R. Martin, Tian-Xing Xu",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "tsinghua.edu.cn"
+    },
+    {
+      "name": "Yu-Kun Lai",
+      "found_via": "works with Ralph R. Martin, Shi-Min Hu, Tian-Xing Xu",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "cs.cf.ac.uk"
+    },
+    {
+      "name": "Niloy J. Mitra",
+      "found_via": "works with Ming-Ming Cheng, Shi-Min Hu",
+      "on_topic": true,
+      "in_country": true,
+      "domain": "cs.ucl.ac.uk"
+    }
+  ],
+  "depth": "thorough"
+}
