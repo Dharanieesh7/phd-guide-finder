@@ -110,4 +110,4 @@ Only public information is used: Google Scholar profiles and public homepages. Y
 
 ## Credits
 
-Built by M D Dharanieesh for the SerpApi India Hackathon 2026. Developed with help from Claude (Anthropic) as a coding assistant.
+Built by M D Dharanieesh for the SerpApi India Hackathon 2026.
